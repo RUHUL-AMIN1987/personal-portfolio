@@ -45,10 +45,10 @@ const About = () => {
         <motion.div className="about-content" variants={itemVariants}>
           <div className="about-text">
             <p>
-              I'm <strong>Ruhul Amin</strong>, a passionate Full Stack Developer
-              based in Zarqa, Jordan. Currently pursuing my Computer Science degree at
-              Zarqa University, I combine academic knowledge with practical experience
-              to create exceptional web solutions.
+              I'm <strong>Ruhul Amin</strong>,a passionate Full Stack Developer based in Dhaka,
+              Bangladesh. I have completed my Computer Science degree at Dhaka University,
+              combining academic knowledge with practical experience to create exceptional
+              web solutions.
             </p>
             <p>
               With 2-3 years of professional experience working for a programming organization,
