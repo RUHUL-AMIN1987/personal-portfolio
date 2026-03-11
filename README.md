@@ -1,4 +1,4 @@
-#Ruhul Amin - Portfolio Website
+Ruhul Amin - Portfolio Website
 
 A professional, modern, and interactive 3D portfolio website built with Gatsby and React.
 
