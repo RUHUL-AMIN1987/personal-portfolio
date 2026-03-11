@@ -1,0 +1,22 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 70px;
+}
+
+.footer {
+  background: rgba(34, 41, 51, 0.95);
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 2px solid var(--primary-gold);
+}
+
+.footer p {
+  color: var(--primary-gold);
+  font-size: 0.9rem;
+}

@@ -1,0 +1,90 @@
+.about {
+  background: linear-gradient(135deg, rgba(34, 41, 51, 0.95) 0%, rgba(34, 41, 51, 1) 100%);
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--primary-gold), transparent);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: grid;
+  gap: 50px;
+}
+
+.about-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.about-text strong {
+  color: var(--primary-gold);
+  font-weight: 600;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.highlight-card {
+  background: rgba(172, 149, 118, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid rgba(172, 149, 118, 0.3);
+  transition: all 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary-gold);
+  box-shadow: 0 10px 30px rgba(172, 149, 118, 0.2);
+}
+
+.highlight-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-gold);
+  margin-bottom: 10px;
+}
+
+.highlight-label {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .highlight-number {
+    font-size: 2.5rem;
+  }
+}
